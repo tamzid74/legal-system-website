@@ -19,7 +19,10 @@
       rel="stylesheet"
     />
     <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/b9a031195d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/b9a031195d.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- tailwind color style -->
     <script>
       tailwind.config = {
@@ -27,8 +30,8 @@
           extend: {
             colors: {
               clifford: "#da373d",
-              'button-color': "#B68C5A",
-              'font-color': "#707070",
+              "button-color": "#B68C5A",
+              "font-color": "#707070",
             },
           },
         },
@@ -39,53 +42,140 @@
       .font-poppins {
         font-family: "Poppins", sans-serif;
       }
-      .font-Ed{
-        font-family: 'EB Garamond', serif;
+      .font-Ed {
+        font-family: "EB Garamond", serif;
       }
     </style>
   </head>
   <body>
     <!-- header section -->
     <header class="container mx-auto">
-        <!-- navbar section -->
-        <nav class="my-12">
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost lg:hidden">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a class="text-base text-font-color font-normal font-poppins">Home</a></li>
-                      <li>
-                        <a class="text-base text-font-color font-normal font-poppins">Services<i class="fa-solid fa-chevron-right"></i></a>
-                      </li>
-                      <li><a class="text-base text-font-color font-normal font-poppins">Cases<i class="fa-solid fa-chevron-right"></i></a></li>
-                      <li><a class="text-base text-font-color font-normal font-poppins">Blogs<i class="fa-solid fa-chevron-right"></i></a></li>
-                      <li><a class="text-base text-font-color font-normal font-poppins">Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
-                    </ul>
-                  </div>
-                  <img src="./images/logo2.png" alt="">
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a class="text-base text-font-color font-normal font-poppins">Home</a></li>
-                    <li tabindex="0">
-                        <summary class="text-base text-font-color font-normal font-poppins">Services<i class="fa-solid fa-chevron-right"></i></summary>
-                    </li>
-                    <li><a class="text-base text-font-color font-normal font-poppins">Cases<i class="fa-solid fa-chevron-right"></i></a></li>
-                    <li><a class="text-base text-font-color font-normal font-poppins">Blogs<i class="fa-solid fa-chevron-right"></i></a></li>
-                    <li><a class="text-base text-font-color font-normal font-poppins">Contact Us<i class="fa-solid fa-chevron-right"></i></a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                  <a class="btn bg-button-color text-lg font-semibold text-white font-poppins">Free Consultation</a>
-                </div>
-              </div>
-        </nav>
+      <!-- navbar section -->
+      <nav class="my-12">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                <li>
+                  <a class="text-base text-font-color font-normal font-poppins"
+                    >Home</a
+                  >
+                </li>
+                <li>
+                  <a class="text-base text-font-color font-normal font-poppins"
+                    >Services<i class="fa-solid fa-chevron-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="text-base text-font-color font-normal font-poppins"
+                    >Cases<i class="fa-solid fa-chevron-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="text-base text-font-color font-normal font-poppins"
+                    >Blogs<i class="fa-solid fa-chevron-right"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="text-base text-font-color font-normal font-poppins"
+                    >Contact Us<i class="fa-solid fa-chevron-right"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <img src="./images/logo2.png" alt="" />
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li>
+                <a class="text-base text-font-color font-normal font-poppins"
+                  >Home</a
+                >
+              </li>
+              <li tabindex="0">
+                <summary
+                  class="text-base text-font-color font-normal font-poppins"
+                >
+                  Services<i class="fa-solid fa-chevron-right"></i>
+                </summary>
+              </li>
+              <li>
+                <a class="text-base text-font-color font-normal font-poppins"
+                  >Cases<i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-base text-font-color font-normal font-poppins"
+                  >Blogs<i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </li>
+              <li>
+                <a class="text-base text-font-color font-normal font-poppins"
+                  >Contact Us<i class="fa-solid fa-chevron-right"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn bg-button-color font-semibold text-white font-poppins"
+              >Free Consultation</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- banner section -->
+      <section>
+        <div
+          class="hero bg-no-repeat md:bg-auto h-[550px] bg-gradient-to-r from-[#111] to-[#11111100]"
+          style="background-image: url(./images/banner.png)"
+        >
+          <div class="hero-content text-center text-neutral-content">
+            <div class="">
+              <h1 class="mb-5 text-3xl md:text-7xl font-extrabold font-EB">
+                We Provide Effective <br />
+                Legal Solutions
+              </h1>
+              <p
+                class="mb-5 md:w-[679px] font-poppins font-medium text-[#E7E7E7]"
+              >
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <input
+                type="text"
+                placeholder="Search your services"
+                class="input input-bordered w-full max-w-xs"
+              />
+              <button
+                class="btn bg-[#B68C5A] border-0 text-white font-poppins mt-2 md:ml-2"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
     </header>
-    <main>
-
-    </main>
+    <main></main>
   </body>
 </html>
